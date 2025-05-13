@@ -29,8 +29,6 @@ a{
 	justify-content: space-evenly;
 	align-items: center;
 }
-
-}
 .text{
 	padding: auto;
 	color: #FFFFFF;
@@ -38,8 +36,6 @@ a{
 	position: absolute;
 
 }
-
-
 .footer{
 	width: 90vw;
 	height: 5vw;
@@ -75,7 +71,6 @@ a{
   	-ms-transition: background-color 1000ms linear;
   	transition: background-color 1000ms linear;
 }
-
 @media only screen and (max-width: 700px) {
 	.header{
 	width: 100vw;
