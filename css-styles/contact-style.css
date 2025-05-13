@@ -1,0 +1,53 @@
+.label{
+  text-decoration: none;
+  background-color: none;
+  border: none;
+ }
+.input-text{
+  background-image: linear-gradient(#0C0950, #261FB3);
+  width: 35vw;
+  height: 4vh;
+  border: 3px solid #0C0950;
+	color: #FFFFFF;
+	font-family: Courier New;
+  font-size:1rem;
+  position: relative;
+}
+::placeholder {
+  color: #FFFFFF;
+}
+
+#request{
+  height: 20vh;
+  text-align: top;
+  font-size:0.75rem;
+}
+
+.terms-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 7vh;
+}
+.terms{
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+#terms{
+  width: 4vw;
+  height: 4vh;
+}
+.button{
+  width: 35vw;
+  height: 10vh;
+  background-image: linear-gradient(#0C0950, #261FB3);
+  border: 3px solid #0C0950;
+	color: #FFFFFF;
+  font-size: 3rem;
+  font-family: Courier New;
+}
+.button:hover{
+  cursor: pointer;
+}
