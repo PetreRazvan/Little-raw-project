@@ -1,3 +1,11 @@
+.content{
+	width: 100vw;
+	height: 70vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
 .content1{
 	width: 45vw;
 	height: 55vh;
