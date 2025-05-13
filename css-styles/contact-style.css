@@ -16,13 +16,11 @@
 ::placeholder {
   color: #FFFFFF;
 }
-
 #request{
   height: 20vh;
   text-align: top;
   font-size:0.75rem;
 }
-
 .terms-box{
   display: flex;
   flex-direction: row;
@@ -51,7 +49,6 @@
 .button:hover{
   cursor: pointer;
 }
-
 @media only screen and (max-width: 900px) {
   .terms-box{
     justify-content: center;
@@ -64,4 +61,4 @@
   .button{
   width: 90vw;
 }
-};
+}
