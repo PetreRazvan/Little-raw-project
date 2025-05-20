@@ -26,3 +26,9 @@
   float: left;
   position: relative;
 }
+@media only screen and (max-width: 700px) {
+	.text{
+	font-size: 0.65rem;
+
+}
+}
