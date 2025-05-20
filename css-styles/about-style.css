@@ -1,0 +1,28 @@
+.content{
+  width: 99vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0;
+  margin: 5vh 0;
+}
+
+.about-text-box{
+  width: 90vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.about-text{
+  border-top: 5px solid rgb(12, 9, 80, 0.5);
+  border-left: 5px solid rgb(12, 9, 80, 0.5);
+  width: 84vw;
+  height: 28vh;
+  float: left;
+  position: relative;
+}
