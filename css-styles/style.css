@@ -14,12 +14,15 @@ a{
 	background-image: linear-gradient(#0C0950, #261FB3);
 }
 .header{
-	width: 100vw;
-	height: 7vw;
+	width: 100%;
+	height: 5vw;
 	display: flex;
+	position: fixed;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	z-index: 1;
+	background-image: linear-gradient(#261FB3, #0C0950);
 }
 .text{
 	padding: auto;
@@ -29,19 +32,17 @@ a{
 
 }
 .footer{
-	width: 90vw;
+	width: 100vw;
 	height: 5vw;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
+	position: fixed;
 	margin: 0;
 	margin-bottom: 0;
-	margin-top: 5%;
+	bottom: 0;
+	text-align: center;
 }
 .btn{
-	width: 20vw;
-	height: 10vh;
+	width: 18vw;
+	height: 7vh;
 	color: #FFFFFF;
 	font-family: Courier New;
 	font-size: 1rem;
@@ -52,16 +53,21 @@ a{
 	text-align: center;
 	font-weight: bold;
 	transition-delay: linear 0.1s;
+	background-image: linear-gradient(#0C0950, #261FB3);
+	border: 2px solid #0C0950;
 }
 .btn:hover{
 	opacity: 100%;
 	cursor: pointer;
-	background-color: #FFFFFF;
+	background-image: none;
+	background-color: #EAE4D5;
 	color: #0C0950;
 	border-bottom: 2px solid #0C0950;
 	-webkit-transition: background-color 1000ms linear;
   	-ms-transition: background-color 1000ms linear;
   	transition: background-color 1000ms linear;
+	border: 4px solid #0C0950;
+	font-size: 1.25rem;
 }
 @media only screen and (max-width: 700px) {
 	.container{
@@ -77,6 +83,6 @@ a{
 	margin: auto;
 }
 	.btn{
-		font-size: 0.75rem;
+	font-size: 0.75rem;
 	}
 }
