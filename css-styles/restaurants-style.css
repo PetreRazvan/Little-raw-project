@@ -1,9 +1,11 @@
 .content{
-  width: 100vw;
+  width: 99vw;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 5vh 0;
+  margin: 5vh 0;
 }
 
 .content-item{
