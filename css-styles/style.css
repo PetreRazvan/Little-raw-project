@@ -85,4 +85,7 @@ a{
 	.btn{
 	font-size: 0.75rem;
 	}
+	.btn:hover{
+	font-size: 0.85rem;
+}
 }
