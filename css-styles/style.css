@@ -124,6 +124,10 @@ a{
 	width: 100vw;
 	height: 10vw;
 }
+.logo > a > img{
+	height: 5vh;
+	width: 10vw;
+}
 	.footer{
 	width: 100vw;
 	height: 7vh;
