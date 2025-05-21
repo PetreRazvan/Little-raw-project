@@ -25,8 +25,8 @@ a{
 	padding: 0 1vw;
 }
 .logo > a > img{
-	height: 10vh;
-	width: 10vw;
+	height: 7vh;
+	width: 7vw;
 }
 .nav-bar{
 	display: flex;
@@ -126,7 +126,7 @@ a{
 }
 .logo > a > img{
 	height: 5vh;
-	width: 10vw;
+	width: 7vw;
 }
 	.footer{
 	width: 100vw;
