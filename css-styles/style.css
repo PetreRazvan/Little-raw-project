@@ -28,6 +28,12 @@ a{
 	height: 7vh;
 	width: 7vw;
 }
+.dropdown{
+	margin-top: 1.5vh;
+}
+.menu-btn{
+	display: none;
+}
 .nav-bar{
 	display: flex;
 	align-items: center;
@@ -117,10 +123,10 @@ a{
 	font-size: 1.25rem;
 }
 @media only screen and (max-width: 700px) {
-	.container{
+.container{
 	height: 100vh;
 }
-	.header{
+.header{
 	width: 100vw;
 	height: 10vw;
 }
@@ -128,14 +134,39 @@ a{
 	height: 5vh;
 	width: 7vw;
 }
-	.footer{
+.menu-btn{
+	display: block;
+}
+.dropdown:hover .dropdown-menu{
+	display: flex;
+}
+
+.dropdown-menu{
+	display: none;
+	flex-direction: column;
+}
+.nav-bar-btn{
+	width: 50vw;
+	height: 4vh;
+	opacity: 100%;
+}
+.nav-bar{
+	display: flex;
+	flex-direction: column;
+}
+.menu-btn{
+	padding-top: 1vh;
+	opacity: 75%;
+}
+
+.footer{
 	width: 100vw;
 	height: 7vh;
 	margin: auto;
 }
-	.btn{
+.btn{
 	font-size: 0.75rem;
 	}
-	.btn:hover{
+.btn:hover{
 	font-size: 0.85rem;
 }
