@@ -142,11 +142,13 @@ a{
 .dropdown-menu{
 	display: none;
 	flex-direction: column;
+	background-image: linear-gradient(#261FB3, #0C0950);
 }
 .nav-bar-btn{
 	width: 50vw;
-	height: 4vh;
+	height: 3vh;
 	opacity: 100%;
+	margin-bottom: 1vh;
 }
 .nav-bar{
 	display: flex;
