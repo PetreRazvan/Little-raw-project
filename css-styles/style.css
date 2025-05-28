@@ -142,21 +142,33 @@ a{
 .dropdown-menu{
 	display: none;
 	flex-direction: column;
-	background-image: linear-gradient(#261FB3, #0C0950);
+	background-color: #261FB3;
 }
 .nav-bar-btn{
-	width: 50vw;
-	height: 3vh;
+	height: 4vh;
+	width: 100%;
 	opacity: 100%;
-	margin-bottom: 1vh;
+	background-color: #261FB3;
+	background-image: none;
+	border: none;
+	border-bottom: 2px solid #0C0950;
+	opacity: 75%;
 }
 .nav-bar{
 	display: flex;
 	flex-direction: column;
+	margin-right: 2vw;
+	width: 50vw;
+}
+.dropdown{
+	width: 50vw;
 }
 .menu-btn{
 	padding-top: 1vh;
 	opacity: 75%;
+	background-image: linear-gradient(#261FB3, #0C0950);
+	height: 3vh;
+	border-bottom: 2px solid #261FB3;
 }
 
 .footer{
